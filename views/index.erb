@@ -1,0 +1,23 @@
+<!doctype html>
+<hmtl>
+  <head>
+    <title>The Weather Today And Other Things </title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" >
+  </head>
+
+
+<body>
+  <h1><center> Temperature Today and Tonight.</center></h1>
+
+<div id = "temperature">
+  <p><center><%= @weather_today.temperature_today %> - <%= @weather_today.temperature_tonight %></center></p>
+  <h3><center>The first number above is the current temperature. The second number is the temperature tonight. These temperatures are in degrees fahrenheit.</center></h3>
+</div>
+
+<div id = "other_stuff">
+  <h3><center> Here is some stuff for amusement.</center></h3>
+  <center><img src="http://d3dsacqprgcsqh.cloudfront.net/photo/aEGdgdn_460sa_v1.gif"></center>
+</div>
+
+</body>
+</html>
