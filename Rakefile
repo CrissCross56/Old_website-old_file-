@@ -1,4 +1,4 @@
-require_relative "mailgun.rb"
+require_relative "lib/mailgun.rb"
 
 
 task :send_weather do
